@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root{
+    --header-color: rgb(255, 105, 0);
+    --header-txt-color: white;
+    --footer-color: rgb(26, 26, 26);
+    --discount-color: rgb(255, 12, 12);
+    --text-color: rgb(30, 32, 9);
+    --sostenibilità-color: rgb(0, 128, 0);
+    --heart-color: rgb(0, 0, 0);
+    --heart-color-hov: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a{
+    color: var(--header-txt-color);
+}
+
+header{
+    background-color: var(--header-color);
+    position: fixed;
+    width: 100%;
+    color: var(--header-txt-color);
+}
+
+header div{
+    padding: .8rem 0;
+}
+
+/*giving all the children the same width to center the logo*/
+header div >*{
+    width: 8%;
+}
+
+#categorie{
+    padding-top: .2rem ;
+    font-weight: 700;
+    font-size: .7rem;
+}
+
+#categorie li{
+    margin-left: 1rem;
+}
