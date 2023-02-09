@@ -142,3 +142,45 @@ article{
     background-color: var(--sostenibilità-color);
     padding: .2rem;
 }
+
+.txt h4{
+    font-size: .8rem;
+    color: grey;
+}
+
+.txt h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.txt em{
+    color: var(--discount-color);
+    font-size: .8rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.txt span{
+    padding-left: .2rem;
+    font-size: .8rem;
+    font-style: normal; 
+    text-decoration: line-through;
+}
+
+footer{
+    margin-top: 2rem;
+    padding: 1rem 0 0;
+    background-color: var(--footer-color);
+    color: white;
+}
+
+footer ul{
+    padding: 1rem 0;
+}
+
+footer ul li{
+    font-size: .8rem;
+    padding-right: .5rem;
+}
